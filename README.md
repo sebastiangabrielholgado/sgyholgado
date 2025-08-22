@@ -1,13 +1,11 @@
 # a function that takes a string and returns a string with its letters in alphabetical order
-
-letters = input("Kindly input your word: ") #User input 
-
-word = list(letters) #string conversion to characters
-word.sort() #Sort function to arrange the letters in ascending order
+User input 
+string conversion to characters
+Sort function to arrange the letters in ascending order
 for i in word:
-    print(i, end= "") #Don't move to a new line
+    print(i, end= "") Don't move to a new line
 
-    #Unpacking List 
+#Unpacking List 
 
 lst = [1, 2, 3, 4, 5, 6] #store variables inside the word lst
 first = lst[0] #1st index is stored in the first variable
